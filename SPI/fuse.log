@@ -1,19 +1,19 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/GSejas/SPIController/SPI/Test_Flancos_isim_beh.exe" -prj "C:/Users/GSejas/SPIController/SPI/Test_Flancos_beh.prj" "work.Test_Flancos" "work.glbl" 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/GSejas/SPIController/SPI/Test_FSMPrincipalSPI_isim_beh.exe -prj C:/Users/GSejas/SPIController/SPI/Test_FSMPrincipalSPI_beh.prj work.Test_FSMPrincipalSPI work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/GSejas/SPIController/SPI/DetectorFlancos.v" into library work
-Analyzing Verilog file "C:/Users/GSejas/SPIController/SPI/Test_Flancos.v" into library work
+Analyzing Verilog file "C:/Users/GSejas/SPIController/SPI/FSMPrincipalSPI.v" into library work
+Analyzing Verilog file "C:/Users/GSejas/SPIController/SPI/Test_FSMPrincipalSPI.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module DetectorFlancos
-Compiling module Test_Flancos
+Compiling module FSMPrincipalSPI
+Compiling module Test_FSMPrincipalSPI
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable C:/Users/GSejas/SPIController/SPI/Test_Flancos_isim_beh.exe
-Fuse Memory Usage: 27072 KB
-Fuse CPU Usage: 358 ms
+Built simulation executable C:/Users/GSejas/SPIController/SPI/Test_FSMPrincipalSPI_isim_beh.exe
+Fuse Memory Usage: 27108 KB
+Fuse CPU Usage: 404 ms
