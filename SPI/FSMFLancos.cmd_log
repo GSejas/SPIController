@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/GSejas/SPIController/SPI/FSMFLancos.xst" -ofn "C:/Users/GSejas/SPIController/SPI/FSMFLancos.syr" 
