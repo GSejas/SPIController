@@ -1,0 +1,29 @@
+Command line:
+   Test_Flancos_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55957
+
+Fri May 09 02:44:20 2014
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 667.902 Meg
+
+ Total Signals          : 20
+ Total Nets             : 20
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 106
+Total Line Count : 35
+
+ Total Simulation Time: 0.109201 sec
+
+ Current Memory Usage: 667.902 Meg
+
+Fri May 09 02:44:40 2014
+
