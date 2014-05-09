@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/GSejas/SPIController/SPI/Test_FSMFlancos_isim_beh.exe" -prj "C:/Users/GSejas/SPIController/SPI/Test_FSMFlancos_beh.prj" "work.Test_FSMFlancos" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/GSejas/SPIController/SPI/Test_Flancos_isim_beh.exe" -prj "C:/Users/GSejas/SPIController/SPI/Test_Flancos_beh.prj" "work.Test_Flancos" "work.glbl" 

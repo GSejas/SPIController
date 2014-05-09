@@ -21,8 +21,138 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="SPI.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ContaNb.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ContaNb.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ContaNb.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ContaNb.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContaNb.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ContaNb.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ContaNb.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ContaNb.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ContaNb_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContaNb_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DetectorFlancos.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DetectorFlancos.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DetectorFlancos.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DetectorFlancos.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetectorFlancos.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DetectorFlancos.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DetectorFlancos.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DetectorFlancos.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DetectorFlancos_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DetectorFlancos_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_Flancos_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Flancos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Test_Flancos_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1399628514" xil_pn:in_ck="8429337675677152864" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1399628514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Contador.v"/>
+      <outfile xil_pn:name="DetectorFlancos.v"/>
+      <outfile xil_pn:name="FSMFLancos.v"/>
+      <outfile xil_pn:name="FSMPrincipalSPI.v"/>
+      <outfile xil_pn:name="RegSIPO.v"/>
+      <outfile xil_pn:name="SPISegmentoControlado.v"/>
+      <outfile xil_pn:name="ShiftRegPISOIzq.v"/>
+      <outfile xil_pn:name="ShiftRegSIPOIzq.v"/>
+      <outfile xil_pn:name="Test_FSMFlancos.v"/>
+      <outfile xil_pn:name="Test_Flancos.v"/>
+      <outfile xil_pn:name="Test_RegPISO.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1399626178" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9057055779707603140" xil_pn:start_ts="1399626178">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399626178" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2428038179609564798" xil_pn:start_ts="1399626178">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628341" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3122771820928564060" xil_pn:start_ts="1399628341">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628514" xil_pn:in_ck="8429337675677152864" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1399628514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Contador.v"/>
+      <outfile xil_pn:name="DetectorFlancos.v"/>
+      <outfile xil_pn:name="FSMFLancos.v"/>
+      <outfile xil_pn:name="FSMPrincipalSPI.v"/>
+      <outfile xil_pn:name="RegSIPO.v"/>
+      <outfile xil_pn:name="SPISegmentoControlado.v"/>
+      <outfile xil_pn:name="ShiftRegPISOIzq.v"/>
+      <outfile xil_pn:name="ShiftRegSIPOIzq.v"/>
+      <outfile xil_pn:name="Test_FSMFlancos.v"/>
+      <outfile xil_pn:name="Test_Flancos.v"/>
+      <outfile xil_pn:name="Test_RegPISO.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628517" xil_pn:in_ck="8429337675677152864" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3357096651801124199" xil_pn:start_ts="1399628514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Test_Flancos_beh.prj"/>
+      <outfile xil_pn:name="Test_Flancos_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628517" xil_pn:in_ck="7391948786188177300" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8154382273498433340" xil_pn:start_ts="1399628517">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Test_Flancos_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8151720263841925026" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3122771820928564060" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7562389794991325532" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628400" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5879989491023849582" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1399628408" xil_pn:in_ck="-6674190571156763328" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4497606058425013269" xil_pn:start_ts="1399628400">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="ContaNb.lso"/>
+      <outfile xil_pn:name="ContaNb.ngc"/>
+      <outfile xil_pn:name="ContaNb.ngr"/>
+      <outfile xil_pn:name="ContaNb.prj"/>
+      <outfile xil_pn:name="ContaNb.stx"/>
+      <outfile xil_pn:name="ContaNb.syr"/>
+      <outfile xil_pn:name="ContaNb.xst"/>
+      <outfile xil_pn:name="ContaNb_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
 
 </generated_project>
