@@ -28,7 +28,6 @@ assign Reg_Rst = (E_Presente == S3);
 
 //Logica Secuencial de la Maquina
 always @(posedge clk, posedge rst)
-	
 	if (rst)
 		E_Presente <= S0;
 	else
@@ -40,9 +39,11 @@ always @*
 			S0: begin
 					if (Init)
 						E_Siguiente <= S1;
+					else
+						E_Siguiente <= S0;
 				end
 			S1: begin
-					E_Siguiente <= S1;
+					E_Siguiente <= S2;
 				end
 			S2: begin
 					if (EdgDone)
@@ -55,7 +56,7 @@ always @*
 							E_Siguiente <= S5;
 					else
 							E_Siguiente <= S4;
-				end
+				 end
 			S4: begin
 					E_Siguiente <= S0;
 				end
