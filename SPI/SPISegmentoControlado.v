@@ -35,7 +35,7 @@ assign	SPI_CLK = cuenta1[2];
 	
 	
 assign EdgDone = (cuenta2 ==Val_Flancos);
-assign Ena_Reg_MISO = (cuenta2<15)&&Ena_Reg_MOSI;
+assign Ena_Reg_MISO = (cuenta2<10)&&Ena_Reg_MOSI;
  
  
 endmodule
