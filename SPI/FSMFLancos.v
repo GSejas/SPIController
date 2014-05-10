@@ -23,7 +23,8 @@ reg [2:0] E_Presente, E_Siguiente;
 
 assign ADC_Conv = (E_Presente == S5);
 assign SPI_CLK = (E_Presente == S1);
-assign Init_Done = (E_Presente == S4);
+//assign Init_Done = (E_Presente == S4)||(E_Siguiente == S4);
+assign Init_Done = (E_Presente == S4)||(E_Presente==S7);
 assign Reg_Rst = (E_Presente == S3);
 
 //Logica Secuencial de la Maquina
@@ -58,7 +59,7 @@ always @*
 							E_Siguiente <= S4;
 				 end
 			S4: begin
-					E_Siguiente <= S0;
+					E_Siguiente <= S7;
 				end
 			S5: begin
 					E_Siguiente <= S6;

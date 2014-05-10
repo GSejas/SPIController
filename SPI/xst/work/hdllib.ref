@@ -1,9 +1,1 @@
-MO SPISegmentoControlado NULL SPISegmentoControlado.v vlg13/_s_p_i_segmento_controlado.bin 1399660762
-MO FSMPrincipalSPI NULL FSMPrincipalSPI.v vlg38/_f_s_m_principal_s_p_i.bin 1399657646
-MO Conta3b NULL Conta3b.v vlg62/_conta3b.bin 1399660762
-MO Conta6b NULL Conta6b.v vlg71/_conta6b.bin 1399660762
-MO FSMFLancos NULL FSMFLancos.v vlg1C/_f_s_m_f_lancos.bin 1399660762
-MO ShiftRegPISOIzq NULL ShiftRegPISOIzq.v vlg7F/_shift_reg_p_i_s_o_izq.bin 1399660762
-MO DetectorFlancos NULL DetectorFlancos.v vlg5C/_detector_flancos.bin 1399660762
-MO ShiftRegSIPOIzq NULL ShiftRegSIPOIzq.v vlg47/_shift_reg_s_i_p_o_izq.bin 1399660762
-MO ContaNb NULL Contador.v vlg69/_conta_nb.bin 1399628402
+MO RegNb NULL RegNb.v vlg7A/_reg_nb.bin 1399706144

@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 
 
-module FSMPrincipalSPI(clk, rst, Init_Done, AMP_ADC, Init);
+module FSMPrincipalSPI(clk, rst, Go, Init_Done, AMP_ADC, Init);
 
-input clk, rst, Init_Done;
+input clk, rst, Init_Done, Go;
 output AMP_ADC, Init;
 
 //Declaracion de las entradas
@@ -37,8 +37,11 @@ always @*
 	begin
 		case (E_Presente)
 		
-			S0: begin			
-					E_Siguiente <= S1;
+			S0: begin
+					if(Go)
+						E_Siguiente <= S0;
+					else
+						E_Siguiente <= S1;						
 				end
 				
 			S1: begin	

@@ -24,8 +24,8 @@ Compiling module SPISegmentoControlado
 Compiling module Test_SPISegmentoControlado
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 4 sub-compilation(s) to finish...
 Compiled 9 Verilog Units
 Built simulation executable C:/Users/GSejas/SPIController/SPI/Test_SPISegmentoControlado_isim_beh.exe
-Fuse Memory Usage: 27436 KB
+Fuse Memory Usage: 27368 KB
 Fuse CPU Usage: 436 ms
