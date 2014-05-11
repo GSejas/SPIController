@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/GSejas/SPIController/SPI/Test_SPIController_isim_beh.exe" -prj "C:/Users/GSejas/SPIController/SPI/Test_SPIController_beh.prj" "work.Test_SPIController" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/GSejas/SPIController/SPI/Test_SPISegmentoControlado_isim_beh.exe" -prj "C:/Users/GSejas/SPIController/SPI/Test_SPISegmentoControlado_beh.prj" "work.Test_SPISegmentoControlado" "work.glbl" 

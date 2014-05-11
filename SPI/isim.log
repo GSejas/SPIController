@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\GSejas\SPIController\SPI\Test_SPIController_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/GSejas/SPIController/SPI/Test_SPIController_isim_beh.wdb 
+Running: C:\Users\GSejas\SPIController\SPI\Test_SPISegmentoControlado_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/GSejas/SPIController/SPI/Test_SPISegmentoControlado_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,7 +11,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# run 50.00us
-# run 50.00us
-# run 50.00us
 # run 50.00us

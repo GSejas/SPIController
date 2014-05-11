@@ -20,7 +20,10 @@ module Test_Flancos;
 
 	initial forever
 		#10 clk = !clk;
-		
+	
+	//Se hace que la senal nivel cambie asincronamente por un tiempo indefinido para acabar con las
+	//posibilidades de fallos.
+	
 	initial forever
 		#81 nivel = !nivel;
 

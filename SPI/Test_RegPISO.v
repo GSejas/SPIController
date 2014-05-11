@@ -44,6 +44,9 @@ module Test_RegPISO;
 		.DatOut(DatOut)
 	);
 	
+	//Se hace el procedimineto estandart, este modulos es muy basico y se excitan las entradas acordemente
+	
+	
 	initial forever
 		#10 clk = !clk;
 		
