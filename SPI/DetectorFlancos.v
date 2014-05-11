@@ -2,6 +2,11 @@
 
 
 module DetectorFlancos(clk, rst, nivel, tick);
+
+//Este modulo es un detector de flancos negativos
+//Al darse uno, el se va a mantener en alto por un ciclo de clock
+//Tiempo suficiente para habilitar la lectura de algun dispositivo
+
 input clk, rst, nivel;
 output tick;
 reg [1:0] filter_reg;

@@ -2,6 +2,11 @@
 
 module ShiftRegPISOIzq(clk, rst, ena, load, DatIn, DatOut);
 
+//Registro de corrimientos Parallel in, Serial Out
+//Se tiene que acertar un Load, para cargar el valor a correrse,
+//este guardado en tmp, de ahi en adelante se va a correr hacia la izquierda
+
+
 parameter LARGO = 8;
 input clk, rst, ena, load;
 input [LARGO-1:0]DatIn;
@@ -26,20 +31,4 @@ reg [LARGO-2:0]tmp;
 			DatOut <= DatOut;
 	
 endmodule
-
-//
-//   parameter piso_shift = <shift_width>;
-//   
-//   reg [piso_shift-2:0] <reg_name>;
-//   reg                  <output>;
-//
-//   always @(posedge <clock>)
-//      if (<load_signal>) begin
-//         <reg_name> <= <input>[piso_shift-1:1];
-//         <output>    <= <input>[0];
-//      end
-//      else begin
-//         <reg_name> <= {1'b0, <reg_name>[piso_shift-2:1]};
-//         <output>   <= <reg_name>[0];
-//      end
-//					
+		

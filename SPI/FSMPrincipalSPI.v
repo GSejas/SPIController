@@ -3,6 +3,12 @@
 
 module FSMPrincipalSPI(clk, rst, Go, Init_Done, AMP_ADC, Init);
 
+//El funcionamiento de esta maquina es el de proveer una secuencia clara
+//para la inicializacion del Amplificador, por medio de AMP_ADC(CS_AMP)
+//y la seleccion del ADC
+//El diagrama la maquina se puede encontrar en el siguiente link
+//Link:https://www.dropbox.com/s/sutwd80sce0b2p9/Control%20SPI%20-%20MaquinaSPIGeneral.jpeg
+
 input clk, rst, Init_Done, Go;
 output AMP_ADC, Init;
 
@@ -32,7 +38,7 @@ always @(posedge clk, posedge rst)
 		E_Presente <= E_Siguiente;
 
 
-//Diagrama de Estados, descrito
+//Diagrama de Estados, descrito en el diagrama presentado en conjunto con el proyecto
 always @*
 	begin
 		case (E_Presente)
@@ -61,12 +67,5 @@ always @*
 		endcase
 	end
 
-
-
-
-
-//
-//assign Q0 = (E_Presente == S1)&&(E_Presente == S3);
-//assign Q1 = (E_Presente == S0);
 
 endmodule

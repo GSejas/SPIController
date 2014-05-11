@@ -1,6 +1,13 @@
 `timescale 1ns / 1ps
 
+
+
 module FSMFLancos(rst, clk, Init, EdgDone, AMP_ADC, ADC_Conv, SPI_CLK, Init_Done, Reg_Rst);
+
+//Maquina que genera la senal que genera flancos de reloj para el SPI por medio del SPI_CLK_ADC
+//Ademas, controla el resto de dispositivos en esta seccion, que en conjunto generan las senales MISO y MOSI
+//El esquema completo se puede encontrar en el siguiente link
+//https://www.dropbox.com/s/ljfnm4hckegulnm/Control%20SPI%20-%20ControlFlancosMaquinaDiagrama%28CFM%29.jpeg
 
 input rst,clk, Init, EdgDone, AMP_ADC;
 output ADC_Conv, SPI_CLK, Init_Done, Reg_Rst;
